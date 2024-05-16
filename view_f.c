@@ -1,14 +1,4 @@
-/*
-Huda Nadeem
-1143941
-CIS*3110
-
----------COMPILE-------
-
-gcc -std=c11 -Wall A1.c
-./a.out
-
-*/
+/*Huda Nadeem*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
