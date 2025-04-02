@@ -18,13 +18,35 @@ A simple interactive file viewer written in C that allows users to open `.txt` f
 
 ## 🧠 Technologies
 
-- Language: C (C11 standard)
-- Libraries: `<stdio.h>`, `<stdlib.h>`, `<string.h>`, `<unistd.h>`, `<fcntl.h>`
+| Technology | Description |
+|------------|-------------|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="30"/> **C** | The primary language used to implement the file viewer. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="30"/> **Git** | Used for version control and repository management. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="30"/> **Linux** | The operating system used for development and execution. |
+
+---
+
+## 📂 Git Clone Instructions
+
+To clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/file-viewer-c.git
+cd file-viewer-c
+```
 
 ---
 
 ## 🛠️ Compilation & Execution
 
 ### Compile
+
 ```bash
-gcc -std=c11 -Wall view_f.c
+gcc -std=c11 -Wall main.c -o main
+```
+
+### Execute
+
+```bash
+./main
+```
